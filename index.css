@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(228, 226, 222);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topo {
+    background-color: rgb(206, 206, 203);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.social img {
+    width: 30px;
+}
+
+.logo {
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-around;
+}
+
+.social {
+
+    display: flex;
+    padding: 10px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+
+.cab{
+    padding: 3%;
+}
+
+.cab_ap img {
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+
+}
+
+.cab_ap h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.acesso {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+
+}
+
+.centro {
+    align-items: center;
+    background-color: rgb(182, 185, 180);
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.campo input {
+    width: 250px;
+    height: 20px;
+    padding:10px;
+}
+
+.fotos {
+    background-color: rgb(206, 206, 203);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gal01 {
+    background-color: rgb(182, 185, 180);
+    padding: 10px;
+    width: 220px;
+}
+
+.cafe01 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-color:  rgb(182, 185, 180);
+    margin: auto;
+    border: 1px solid #000000;
+}
+
+.cafe01 img {
+    width: 200px;
+}
+
+.gal01,
+p,
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tit_gal {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.obs {
+    background-color: rgb(206, 206, 203);
+    padding: 10px;
+}
+
+.obs h1,
+p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.texto {
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(182, 185, 180);
+    border: 1px solid #000000;
+}
+
+.princ {
+    width: 90%;
+    height: 570px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #000000;
+    background-color: rgb(206, 206, 203);
+
+}
+.um {
+
+    width: 48%;
+    text-align: center;
+    position: absolute;
+    align-content: center;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #000000;
+    background-color: rgb(182, 185, 180);
+}
+
+.um img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+.um h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.dois {
+
+    width: 48%;
+    text-align: center;
+    position: absolute;
+    align-content: center;
+    top: 20px;
+    right: 20px;
+    border: 1px solid #000000;
+    background-color: rgb(182, 185, 180);
+}
+.dois img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.dois h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.alinha{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    
+
+}
+
+.video{
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #000000;  
+}
+
+.casa video{
+    display:block;
+    margin:auto;
+
+}
+
+.lista_imagem{
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #000000;
+    
+}
+
+.lista_imagem img{
+    width:250px;
+    border: 1px solid #000000;
+}
+
+.lista_imagem ul{
+    display:flex;
+    justify-content: space-around;
+}
+
+.janela{
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #000000;  
+
+}
+.exib iframe{
+    display:block;
+    margin:auto;
+    border: 1px solid #000000;
+}
+
+.jukebox{
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #000000;  
+
+}
+.som audio{
+    display: block;
+    margin:auto;
+
+
+}
+
+.jscript{
+    background-color: #ffffff;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #000000;
+    }  
+

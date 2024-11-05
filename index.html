@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        table {
+            margin: auto;
+            width: 80%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #000000;
+            text-align: center;
+            border-collapse: collapse;
+            padding: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        th {
+            background-color: rgb(182, 185, 180);
+        }
+
+        td {
+            background-color: rgb(238, 240, 237);
+        }
+
+        .alimentos {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+        }
+
+        .tabela {
+            background-color: rgb(182, 185, 180);
+            padding: 10px;
+        }
+    </style>
+
+   
+
+    <title>EXERCÍCIO HTML AVANÇADO</title>
+</head>
+
+<body>
+
+    <head>
+        <div class="topo">
+            <div class="logo">
+                <img src="imagens/tag.png" width="30px;">
+                <h1> HTML AVANÇADO</h1>
+            </div>
+
+            <div class="social">
+                <img src="imagens/instagram.png">
+                <img src="imagens/telegram.png">
+                <img src="imagens/twitter.png">
+                <img src="imagens/whatsapp.png">
+            </div>
+        </div>
+    </head>
+
+    <section class="cab">
+
+        <div class="cab_ap">
+            <br>
+            <h1>EXERCÍCIO HTML AVANÇADO</h1>
+            <br>
+            <img src="imagens/usuario.png" alt="Usuário" style="border-radius:20px;">
+        </div>
+        <br>
+        <div class="acesso">
+            <br>
+            <h1 style="text-align: center;">PREENCHA O FORMULÁRIO PARA ACESSAR A PÁGINA</h1>
+            <br>
+            <div class="centro">
+                <form class="dados">
+                    <fildset class="campo">
+                        <br>
+                        <label><Strong> Nome</Strong></label><br>
+                        <input type="text" name="nome" id="nome" placeholder="Nome"><br>
+                        <label><strong> Login</strong></label><br>
+                        <input type="text" name="login" id="login" placeholder="Nome de usuário"><br>
+                        <label><strong> Senha</strong></label><br>
+                        <input type="text" name="senha" id="senha" placeholder="Senha"><br>
+                        <label><strong> E-mail</strong></label><br>
+                        <input type="email" name="email" id="email" placeholder="E-Mail"><br><br>
+                    </fildset>
+                </form>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="tabela">
+
+        <h1 class="alimentos"> Cadastro de Clientes </h1>
+        <br>
+        <table>
+            <tr>
+                <th>Café da Manhã</th>
+                <th>Almoço</th>
+                <th>Lanche</th>
+                <th>Jantar</th>
+            </tr>
+            <tr>
+                <td>Pão</td>
+                <td>Arroz</td>
+                <td>Suco</td>
+                <td>Sopa</td>
+            </tr>
+            <tr>
+                <td>Leite</td>
+                <td>Feijão</td>
+                <td>Pão de Queijo</td>
+                <td>Salada Mista</td>
+            </tr>
+            <tr>
+                <td>Café</td>
+                <td>Bife</td>
+                <td>Biscoito</td>
+                <td>Sanduiche de Frango</td>
+            </tr>
+            <tr>
+                <td>Ovos</td>
+                <td>Salada</td>
+                <td>Achocolatado</td>
+                <td>Caldos</td>
+            </tr>
+        </table>
+        <br>
+    </section>
+
+    <section style="background-color: rgb(206, 206, 203);">
+        <h1 class="tit_gal">GALERIA DE FOTOS</h1>
+        <br>
+        <div class="fotos">
+            <br>
+            <div class="gal01">
+                <div class="cafe01">
+                    <img src="imagens/cafet01.jpg">
+                </div>
+                <br>
+                <h2>MOSCATINNO</h2>
+                <p>Café com canela, creme de leite e raspas de chocolate.</p>
+            </div>
+
+            <div class="gal01">
+                <div class="cafe01">
+                    <img src="imagens/cafet02.jpg">
+                </div>
+                <br>
+                <h2>MOSCATINNO</h2>
+                <p>Café com canela, creme de leite e raspas de chocolate.</p>
+            </div>
+
+            <div class="gal01">
+                <div class="cafe01">
+                    <img src="imagens/cafet03.jpg">
+                </div>
+                <br>
+                <h2>MOSCATINNO</h2>
+                <p>Café com canela, creme de leite e raspas de chocolate.</p>
+            </div>
+
+            <div class="gal01">
+                <div class="cafe01">
+                    <img src="imagens/cafet04.jpg">
+                </div>
+                <br>
+                <h2>MOSCATINNO</h2>
+                <p>Café com canela, creme de leite e raspas de chocolate.</p>
+            </div>
+            <div class="gal01">
+                <div class="cafe01">
+                    <img src="imagens/cafet05.jpg">
+                </div>
+                <br>
+                <h2>MOSCATINNO</h2>
+                <p>Café com canela, creme de leite e raspas de chocolate.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="obs">
+        <div class="coment">
+            <br>
+            <h1>COMENTÁRIOS</h1>
+            <p>Faça um comentário sobre conteúdo dessa página. Queremos saber sua opinião, dúvidas e sugestões!</p>
+            <br>
+            <form>
+                <fieldset class="texto">
+                    <label>Comentário</label><br>
+                    <textarea row="20" style="width:500px; resize: none; height: 250px;" id="coment"
+                        nome="coment"></textarea><br><br>
+                    <button type="submit"> Enviar </button>
+                    <br>
+                </fieldset>
+                <br>
+            </form>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="princ">
+            <div class="um">
+                <br>
+                <h1>HALLOWEEN</h1>
+
+                <br>
+                <img src="imagens/horror.png"><br>
+                <h1>COMO SURGIU</h1>
+                <br>
+                <p style="text-align:justify; padding:10px" ;>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta accusantium praesentium aperiam
+                    ipsam iusto eum a. Ipsam iusto eum optio placeat earum obcaecati sint. Unde a ducimus officia
+                    ratione at!<br><br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta accusantium praesentium aperiam
+                    ipsam iusto eum a. Ipsam iusto eum optio placeat earum obcaecati sint. Unde a ducimus officia
+                    ratione at!</p>
+                <br>
+            </div>
+
+            <div class="dois">
+                <br>
+                <h1>CONTO DE HALLOWEEN</h1>
+                <br>
+                <img src="imagens/horror2.png">
+                <h1>O FANSTAMA</h1>
+                <br>
+                <p style="text-align:justify; padding:10px" ;>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta accusantium praesentium aperiam
+                    ipsam iusto eum a. Ipsam iusto eum optio placeat earum obcaecati sint. Unde a ducimus officia
+                    ratione at!<br><br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta accusantium praesentium aperiam
+                    ipsam iusto eum a. Ipsam iusto eum optio placeat earum obcaecati sint. Unde a ducimus officia
+                    ratione at!</p>
+                <br>
+            </div>
+        </div>
+    </section>
+
+
+    <br>
+    <section class="video">
+        <div>
+            <h1 style="text-align: center;">INSERÇÃO DE VÍDEO</h1>
+            <br>
+        </div>
+        <div class="casa">
+            <video src="videos/casa.mp4" controls height="400px" poster="imagens/capa02.png">
+                <source src="videos/casa.mkv">
+                <source src="videos/casa.mov">
+            </video>
+            <br>
+        </div>
+    </section>
+    <br>
+    <section style="width: 90%; padding:10px; margin: auto; border: 1px solid #000000">
+        <h1 style="text-align: center;">LISTA COM IMAGENS E DESCRIÇÃO</h1>
+        <br>
+        <div class="lista_imagem">
+            <ul style="list-style:none;">
+                <li>
+                    <img src="imagens/mod04.png">
+                    <p>Texto de decrição da imagem.</p>
+                </li>
+                <li>
+                    <img src="imagens/mod05.png">
+                    <p>Texto de decrição da imagem.</p>
+                </li>
+                <li>
+                    <img src="imagens/mod06.png">
+                    <p>Texto de decrição da imagem.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <br>
+    <section class="janela">
+        <h1 style="text-align: center;">I-FRAME</h1>
+        <br>
+        <div class="exib">
+            <iframe width="500px" height="500px" src="https://www.adorocinema.com/"></iframe>
+        </div>
+    </section>
+    <br>
+    <section class="jukebox">
+        <h1 style="text-align: center;">INSERÇÃO DE AUDIO</h1>
+        <br>
+        <div class="som">
+            <audio src="audio/happy.mp3" controls autoplay></audio>
+        </div>
+        <br>
+    </section>
+    <br>
+    
+
+
+
+</body>
+
+</html>
